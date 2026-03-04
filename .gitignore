@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode settings
+.vscode/
+
+# System files
+.DS_Store
+
+# Huggingface cache
+.cache/
+
+data/Online_Courses_Cleaned_Final.csv
+
+# OS temp
+Thumbs.db

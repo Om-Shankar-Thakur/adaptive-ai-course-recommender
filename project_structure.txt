@@ -1,0 +1,35 @@
+project structure for: c:\Users\omsha\OneDrive\Documents\AI_Microservice
+==================================================
+
+├── app/
+│   ├── api/
+│   │   ├── progress_routes.py
+│   │   ├── quiz_routes.py
+│   │   └── recommendation_routes.py
+│   ├── db/
+│   │   ├── learner_store.py
+│   │   └── qdrant_client.py
+│   ├── embeddings/
+│   │   ├── embedder.py
+│   │   └── indexing.py
+│   ├── models/
+│   │   ├── learner_profile.py
+│   │   ├── quiz_models.py
+│   │   └── response_models.py
+│   ├── services/
+│   │   ├── adaptive_engine.py
+│   │   ├── feedback_service.py
+│   │   ├── llm_service.py
+│   │   ├── mastery_tracker.py
+│   │   ├── progress_analyzer.py
+│   │   ├── prompt_builder.py
+│   │   ├── reranker.py
+│   │   └── retriever.py
+│   └── main.py
+├── data/
+│   └── Online_Courses_Cleaned_Final.csv
+├── .gitignore
+├── DataCleaning_AI.ipynb
+├── file.txt
+├── requirements.txt
+└── test.py
