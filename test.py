@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # # from sentence_transformers import SentenceTransformer
 # # SentenceTransformer("Sentence-transformers/all-MiniLM-L6-v2")
 
@@ -25,3 +26,7 @@ client.create_payload_index(
    field_name="difficulty_tag",
    field_schema=PayloadSchemaType.KEYWORD
 )
+=======
+from sentence_transformers import SentenceTransformer
+SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+>>>>>>> 7277fa7be57a9c65d2e08b5d5a3aa617940e4636
